@@ -4,13 +4,28 @@
   "description": "A tick list of climbs.",
   "main": "index.js",
   "scripts": {
-    "start": "",
-    "build": ""
+    "start": "webpack-dev-server --mode=none --open",
+    "build": "webpack --mode=none",
+    "publish": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexcrist/climbing-tick-list.git"
   },
   "license": "MIT",
-  "homepage": "https://alexcrist.github.io/climbing-tick-list"
+  "homepage": "https://alexcrist.github.io/climbing-tick-list",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "gh-pages": "^1.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "yml-loader": "^2.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
