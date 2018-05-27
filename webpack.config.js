@@ -6,6 +6,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        loader: 'babel-loader'
+      },
+      {
         test: /\.yml$/,
         loader: 'yml-loader'
       },
@@ -15,7 +19,10 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'css-loader'
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader'
+        ]
       }
     ]
   },
