@@ -201,3 +201,7 @@ h5 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
+div {
+  overflow: hidden;
+}
