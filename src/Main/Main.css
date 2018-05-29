@@ -5,14 +5,47 @@
   margin: 0 auto;
 }
 
-.Main-intro-title {
-  margin-top: 30vh;
-  font-size: 40px;
+.Main-title {
+  margin-top: 10vh;
+  font-size: 28px;
 }
 
-.Main-intro-subtitle {
+.Main-subtitle {
   margin-top: 20px;
   font-size: 18px;
+}
+
+.Main-legend {
+  font-size: 18px;
+  max-width: 150px;
+  margin: 15vh auto 0;
+}
+
+.Main-legend-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.Main-legend-item {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.Main-legend-icon {
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.Main-legend-text {
+  display: inline-block;
+}
+
+.Main-down {
+  font-size: 30px;
+  color: #ddd;
+  margin-top: 20vh;
 }
 
 .Main-container {
@@ -49,7 +82,6 @@
 }
 
 .Main-climb {
-
   overflow: auto;
   padding: 10px;
   margin-bottom: 15px;
@@ -58,8 +90,15 @@
   background: white;
 }
 
+.Main-climb-icon {
+  display: inline-block;
+  width: 20px;
+  padding-right: 10px;
+}
+
 .Main-climb-header {
   display: inline-block;
+  font-weight: bold;
 }
 
 .Main-climb-info {
@@ -70,4 +109,23 @@
 .Main-sticky {
   position: fixed;
   top: -270px;
+}
+
+.fa-paper-plane,
+.fa-paper-plane-o {
+  color: 	#205200;
+}
+
+.fa-circle,
+.fa-circle-o {
+  color: 	#003366;
+}
+
+@media only screen and (max-width: 500px) {
+  .Main-climb-info {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
 }

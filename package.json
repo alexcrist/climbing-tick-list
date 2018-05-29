@@ -14,12 +14,14 @@
   },
   "license": "MIT",
   "homepage": "https://alexcrist.github.io/climbing-tick-list",
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "capitalize": "^1.0.0",
+    "classnames": "^2.2.5",
     "css-loader": "^0.28.11",
     "gh-pages": "^1.1.0",
     "html-loader": "^0.5.5",
@@ -29,13 +31,10 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-fontawesome": "^1.6.1",
+    "react-sidebar": "^2.3.2",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^3.1.4",
     "yml-loader": "^2.1.0"
-  },
-  "dependencies": {
-    "classnames": "^2.2.5",
-    "react-sidebar": "^2.3.2"
   }
 }
