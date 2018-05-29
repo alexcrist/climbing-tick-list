@@ -1,4 +1,5 @@
 - location: Rumney
+  image: https://c1.staticflickr.com/5/4139/4810327703_f66eb88334_b.jpg
   climbs:
   - style: sport
     grade: 5.11b
@@ -279,7 +280,7 @@
     name: They Died Laughing
     area: The North End
 
-- location: Humphrey's Ledge Area
+- location: Humphrey's Ledge
   climbs:
   - style: trad
     grade: 5.10b
@@ -326,7 +327,7 @@
     name: The Red Letter
     area: The Great Chimney Area
 
-- location: Upper Kancamagus Area
+- location: Upper Kancamagus
   climbs:
   - style: sport
     grade: 5.11d
@@ -339,7 +340,7 @@
     name: The Owl Cliff Club
     area: The White Owl Face
 
-- location: Lower Kangamagus Area
+- location: Lower Kangamagus
   climbs:
   - style: trad
     grade: 5.7

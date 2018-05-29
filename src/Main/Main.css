@@ -1,0 +1,73 @@
+.Main-intro {
+  height: 100vh;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.Main-intro-title {
+  margin-top: 30vh;
+  font-size: 40px;
+}
+
+.Main-intro-subtitle {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.Main-container {
+  position: relative;
+}
+
+.Main-location-container {
+  height: 390px;
+  position: relative;
+}
+
+.Main-location {
+  padding: 300px 30px 30px;
+  background-color: #ddd;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.Main-location-text {
+  font-size: 36px;
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  background: #323232;
+  display: inline-block;
+  padding: 0 30px;
+  color: #f9f9f9;
+}
+
+.Main-climbs {
+  padding: 20px 30px;
+  background: #F8F8F8;
+}
+
+.Main-climb {
+
+  overflow: auto;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.03), 1px 2px 3px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.Main-climb-header {
+  display: inline-block;
+}
+
+.Main-climb-info {
+  display: inline-block;
+  float: right;
+}
+
+.Main-sticky {
+  position: fixed;
+  top: -270px;
+}

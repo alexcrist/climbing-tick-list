@@ -1,0 +1,23 @@
+.Sidebar-container {
+  width: 175px;
+  padding: 10px;
+}
+
+.Sidebar-header {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.Sidebar-section {
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+.Sidebar-section:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Sidebar-section-selected {
+  font-weight: bold;
+}
