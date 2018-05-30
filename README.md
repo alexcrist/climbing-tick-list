@@ -1,5 +1,7 @@
 # Climbing Tick List
 
+> A record of the most memorable and classic climbs that I've done or want to do
+
 https://alexcrist.github.io/climbing-tick-list/
 
 ## Development
