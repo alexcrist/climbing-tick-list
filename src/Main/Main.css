@@ -111,6 +111,10 @@
   top: -270px;
 }
 
+.fa {
+  transform: translateY(-5px);
+}
+
 .fa-paper-plane,
 .fa-paper-plane-o {
   color: 	#205200;
