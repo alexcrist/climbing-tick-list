@@ -49,8 +49,7 @@ export default class MainLayout extends React.Component {
       'Main-sticky': index === this.state.currentIndex
     });
 
-    const id = escape(location)
-      .replace(/\%/g, '');
+    const id = escape(location).replace(/\%/g, '');
 
     return (
       <div
