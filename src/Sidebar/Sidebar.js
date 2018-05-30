@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactSidebar from 'react-sidebar';
+import $ from 'jquery';
 
 import './Sidebar.css';
 
@@ -12,6 +13,7 @@ export default class Sidebar extends React.Component {
     this.mediaQueryChanged = this.mediaQueryChanged.bind(this);
     this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
     this.getSidebarContent = this.getSidebarContent.bind(this);
+    this.buildSection = this.buildSection.bind(this);
     this.state = {
       mediaQuery: mediaQuery,
       docked: props.docked,
@@ -36,9 +38,29 @@ export default class Sidebar extends React.Component {
     this.setState({ sidebarDocked: this.state.mediaQuery.matches });
   }
 
+  getScrollTo(location) {
+    return () => {
+      const scrollWindow = $('.Main').parent().parent();
+      const id = escape(location)
+        .replace(/\%/g, '');
+      console.log('id', id);
+      const position = scrollWindow.scrollTop();
+      const delta = $(`#${id}`).position().top + 370;
+      scrollWindow.animate({
+        scrollTop: position + delta
+      }, 1000);
+    };
+  }
+
   buildSection({ location }) {
     return (
-      <div key={location} className='Sidebar-section'>{location}</div>
+      <div
+        key={location}
+        className='Sidebar-section'
+        onClick={this.getScrollTo(location)}
+      >
+        {location}
+      </div>
     );
   }
 

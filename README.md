@@ -30,9 +30,7 @@ https://alexcrist.github.io/climbing-tick-list/
 
 ## To Do
 
-- Make sidebar functional
-  - Click to jump to sections
-  - Curent section is bolded in sidebar
+- Curent section is bolded in sidebar
 - Spice up the homepage
 - Add filter functionality to homepage
   - Filter by grade, area, style, etc.

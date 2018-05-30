@@ -49,8 +49,16 @@ export default class MainLayout extends React.Component {
       'Main-sticky': index === this.state.currentIndex
     });
 
+    const id = escape(location)
+      .replace(/\%/g, '');
+
     return (
-      <div ref={ref} className='Main-container' key={index}>
+      <div
+        ref={ref}
+        className='Main-container'
+        key={index}
+        id={id}
+      >
         <div className='Main-location-container'>
           <div className={locationClasses} style={locationStyle}>
             <h2 className='Main-location-text'>{location}</h2>
@@ -107,12 +115,12 @@ export default class MainLayout extends React.Component {
       <div className='Main'>
         <div className='Main-intro'>
           <h1 className='Main-title'>Climbing Tick List</h1>
-          <div className='Main-subtitle'>Alex Crist</div>
           <div className='Main-code'>
-            <FontAwesome className='Main-code-icon' name='terminal' />
+            <FontAwesome className='Main-code-icon' name='github' />
             <a href='https://github.com/alexcrist/climbing-tick-list'>
               <div className='Main-code-text'>View on GitHub</div>
             </a>
+            <div className='Main-subtitle'>Alex Crist</div>
           </div>
           <div className='Main-legend'>
             <h2 className='Main-legend-title'>Legend</h2>
