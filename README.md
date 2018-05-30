@@ -1,6 +1,8 @@
 # Climbing Tick List
 
-[See the tick list!](https://alexcrist.github.io/climbing-tick-list)
+> My personal rock climbing tick list
+
+https://alexcrist.github.io/climbing-tick-list/
 
 ## Development
 
