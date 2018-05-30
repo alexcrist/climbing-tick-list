@@ -1,8 +1,9 @@
 .Main-intro {
   height: 100vh;
   text-align: center;
-  max-width: 90%;
-  margin: 0 auto;
+  padding: 0 10%;
+  position: relative;
+  background: #F8F8F8;
 }
 
 .Main-title {
@@ -15,9 +16,25 @@
   font-size: 18px;
 }
 
+.Main-code {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.Main-code-icon {
+  display: inline-block;
+  margin-right: 10px;
+  transform: translateY(-3px);
+}
+
+.Main-code-text {
+  display: inline-block;
+  font-weight: bold;
+}
+
 .Main-legend {
   font-size: 18px;
-  max-width: 150px;
+  max-width: 155px;
   margin: 15vh auto 0;
 }
 
@@ -30,6 +47,7 @@
 .Main-legend-item {
   text-align: left;
   margin-bottom: 10px;
+  padding: 2px;
 }
 
 .Main-legend-icon {
@@ -45,24 +63,29 @@
 .Main-down {
   font-size: 30px;
   color: #ddd;
-  margin-top: 20vh;
+  position: absolute;
+  bottom: 20px;
 }
 
 .Main-container {
   position: relative;
+  z-index: -1;
 }
 
 .Main-location-container {
-  height: 390px;
+  height: 490px;
+  box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.03), 1px 2px 3px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 
 .Main-location {
-  padding: 300px 30px 30px;
+  padding: 400px 30px 30px;
   background-color: #ddd;
   position: absolute;
   top: 0;
   width: 100%;
+  background-size: cover;
+  z-index: 1;
 }
 
 .Main-location-text {
@@ -74,6 +97,7 @@
   display: inline-block;
   padding: 0 30px;
   color: #f9f9f9;
+  overflow: hidden;
 }
 
 .Main-climbs {
@@ -83,8 +107,8 @@
 
 .Main-climb {
   overflow: auto;
-  padding: 10px;
-  margin-bottom: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
   font-size: 18px;
   box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.03), 1px 2px 3px rgba(0, 0, 0, 0.1);
   background: white;
@@ -93,7 +117,7 @@
 .Main-climb-icon {
   display: inline-block;
   width: 20px;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .Main-climb-header {
@@ -108,7 +132,9 @@
 
 .Main-sticky {
   position: fixed;
-  top: -270px;
+  top: -370px;
+  z-index: 1;
+  box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.03), 1px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 .fa {
@@ -130,7 +156,8 @@
     display: block;
     float: left;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
+    width: 100%;
   }
 }
 .Sidebar-container {
@@ -208,4 +235,12 @@ h5 {
 
 div {
   overflow: hidden;
+}
+
+a {
+  color: #323232;
+}
+
+a div:hover {
+  text-decoration: underline;
 }
