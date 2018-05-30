@@ -90,11 +90,11 @@ export default class MainLayout extends React.Component {
     );
   }
 
-  buildLegendItem(text) {
+  buildLegendItem({ text, icon }) {
     return (
       <div className='Main-legend-item'>
-        <FontAwesome className='Main-legend-icon' name={this.getIcon(text)} />
-        <div className='Main-legend-text'>{capitalize(text)}</div>
+        <FontAwesome className='Main-legend-icon' name={this.getIcon(icon)} />
+        <div className='Main-legend-text'>{text}</div>
       </div>
     );
   }
@@ -109,7 +109,12 @@ export default class MainLayout extends React.Component {
   }
 
   render() {
-    const legendItems = ['unattempted', 'attempted', 'sent', 'flashed'];
+    const legendItems = [
+      { text: 'Noop', icon: 'unattempted' },
+      { text: 'Try', icon: 'attempted' },
+      { text: 'Send', icon: 'sent' },
+      { text: 'FLARSH', icon: 'flashed' }
+    ];
     return (
       <div className='Main'>
         <div className='Main-intro'>
