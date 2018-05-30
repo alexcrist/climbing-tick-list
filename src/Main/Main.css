@@ -57,13 +57,13 @@
 }
 
 .Main-location-container {
-  height: 390px;
+  height: 490px;
   box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.03), 1px 2px 3px rgba(0, 0, 0, 0.1);
   position: relative;
 }
 
 .Main-location {
-  padding: 300px 30px 30px;
+  padding: 400px 30px 30px;
   background-color: #ddd;
   position: absolute;
   top: 0;
@@ -81,6 +81,7 @@
   display: inline-block;
   padding: 0 30px;
   color: #f9f9f9;
+  overflow: hidden;
 }
 
 .Main-climbs {
@@ -115,7 +116,7 @@
 
 .Main-sticky {
   position: fixed;
-  top: -270px;
+  top: -370px;
   z-index: 1;
   box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.03), 1px 2px 3px rgba(0, 0, 0, 0.1);
 }
@@ -140,5 +141,6 @@
     float: left;
     margin-top: 10px;
     margin-left: 40px;
+    width: 100%;
   }
 }

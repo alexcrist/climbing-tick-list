@@ -111,6 +111,7 @@
     area: Summit Cliff
 
 - location: Farley
+  image: http://cruxcrush.com/wp-content/uploads/2015/01/photo-23-1024x765.jpg
   climbs:
   - style: sport
     grade: 5.12a
@@ -132,6 +133,7 @@
     status: stoked
 
 - location: Whitehorse
+  image: http://www.mooneymountainguides.com/blog/wp-content/uploads/2015/09/IMG_7742.jpg
   climbs:
   - style: trad
     grade: 5.5
@@ -179,6 +181,7 @@
     status: flashed
 
 - location: Cannon
+  image: https://cdn-files.apstatic.com/climb/107345122_large_1494183089.jpg
   climbs:
   - style: trad
     grade: 5.7
@@ -193,6 +196,7 @@
     status: stoked
 
 - location: Cathedral
+  image: https://i2.wp.com/www.mountainsenseguides.com/wp-content/uploads/2012/11/rock-Cathedral-Ledge-overview.jpg?fit=1200%2C675&ssl=1
   climbs:
   - style: trad
     grade: 5.7
@@ -281,6 +285,7 @@
     area: The North End
 
 - location: Humphrey's Ledge
+  image: https://2.bp.blogspot.com/-FdhpQWI73CQ/ULZ3wNfB1II/AAAAAAAAOU4/J9RGLVL7vMQ/s1600/CIMG7694.JPG
   climbs:
   - style: trad
     grade: 5.10b
@@ -289,6 +294,7 @@
     area: Humphrey’s Ledge
 
 - location: Jackson Area
+  image: https://cdn-files.apstatic.com/climb/113453126_large_1502380576.jpg
   climbs:
   - style: trad
     grade: 5.7
@@ -302,6 +308,7 @@
     area: Central Buttress
 
 - location: Evan's Notch
+  image: https://cdn-files.apstatic.com/climb/107555575_large_1494196864.jpg
   climbs:
   - style: sport
     grade: 5.12a
@@ -320,6 +327,7 @@
     area: Wild River Crag
 
 - location: Bethel Area
+  image: https://i.imgur.com/ZMht6pn.jpg
   climbs:
   - style: trad
     grade: 5.7
@@ -328,6 +336,7 @@
     area: The Great Chimney Area
 
 - location: Upper Kancamagus
+  image: https://newengland.com/wp-content/uploads/kancamagus-highway-fall-foliage-drive-og-1.jpg
   climbs:
   - style: sport
     grade: 5.11d
@@ -341,6 +350,7 @@
     area: The White Owl Face
 
 - location: Lower Kangamagus
+  image: https://i0.wp.com/takemytrip.com/wp-content/uploads/2015/12/1050_10c_kancamagus.jpg?resize=1000%2C600
   climbs:
   - style: trad
     grade: 5.7
@@ -354,6 +364,7 @@
     area: The Yellow Matter Area
 
 - location: Shawangunks
+  image: http://gunksclimbers.org/wp-content/uploads/2015/10/highe-gunks-1280x8001-1280x800.jpg
   climbs:
   - style: trad
     grade: 5.5
@@ -437,6 +448,7 @@
     area: The Trapps
 
 - location: L'Amphitheatre
+  image: http://www.climbing.co.za/w/images/6/6e/Yellowwood_Amphitheatre_routes_as_at_January_2016.JPG
   climbs:
   - style: sport
     grade: 5.11b
@@ -462,6 +474,7 @@
     area: VO2
 
 - location: Joshua Tree
+  image: https://i0.wp.com/www.thesweetestway.com/wp-content/uploads/2018/01/Joshua-Tree-Rock-Climbing-17.jpg?ssl=1
   climbs:
   - style: pebble
     grade: V2
@@ -764,6 +777,7 @@
     status: stoked
 
 - location: New Jack City
+  image: https://cdn-images-1.medium.com/max/2000/1*p46m08Qzn55XLlr37TLa9w.jpeg
   climbs:
   - style: sport
     grade: 5.12a
@@ -779,6 +793,7 @@
     status: sent
 
 - location: El Cajon Mountain
+  image: https://upload.wikimedia.org/wikipedia/commons/5/51/Faces_on_El_Cajon_Mountain_-_panoramio.jpg
   climbs:
   - style: sport
     grade: 5.11a
@@ -809,22 +824,29 @@
     area: Right Wall
 
 - location: North Cascades
+  image: https://www.evergreenescapes.com/wp-content/uploads/2012/09/North-Cascades-e1354925432823.jpg
   climbs: []
 
 - location: Vedauwoo
+  image: https://collegian.com/wp-content/uploads/2016/09/tent-at-vedauwoo-photo-by-nevin-fowler.jpg
   climbs: []
 
 - location: Ten Sleep Canyon
+  image: https://res.cloudinary.com/miles-extranet-dev/image/upload/ar_16:9,c_fill,w_1200,g_face/Wyoming/account_photos/37a340857b9f00b5bd4aab9a935b24dd_canyon.jpg
   climbs: []
 
 - location: Red River Gorge
+  image: https://www.outdoorproject.com/sites/default/files/styles/odp_header_adaptive/public/features/nb1.jpg?itok=S9Tpfh8N
   climbs: []
 
 - location: Tahquitz
+  image: https://cdn-files.apstatic.com/climb/105978691_large_1494066168.jpg
   climbs: []
 
 - location: Yosemite
+  image: http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VCW_D_Yosemite_Hero_20140503_Yosemite_hero_1280x642_1.jpg
   climbs: []
 
 - location: Smith Rock
+  image: http://www.fivepinelodge.com/wp-content/uploads/2013/04/Smith-Rock2.jpg
   climbs: []

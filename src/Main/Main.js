@@ -31,7 +31,7 @@ export default class MainLayout extends React.Component {
   }
 
   handleScroll(event) {
-    const offset = 270;
+    const offset = 370;
     const currentIndex = this.containerRefs
       .map(ref => (this.scrollWindow.scrollTop - ref.current.offsetTop) >= offset)
       .filter(value => value)
