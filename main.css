@@ -12,7 +12,7 @@
 }
 
 .Main-subtitle {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 18px;
 }
 
@@ -67,11 +67,6 @@
   bottom: 20px;
 }
 
-.Main-container {
-  position: relative;
-  z-index: -1;
-}
-
 .Main-location-container {
   height: 490px;
   box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.03), 1px 2px 3px rgba(0, 0, 0, 0.1);
@@ -106,7 +101,7 @@
 }
 
 .Main-climb {
-  overflow: auto;
+  overflow: hidden;
   padding: 20px;
   margin-bottom: 20px;
   font-size: 18px;
