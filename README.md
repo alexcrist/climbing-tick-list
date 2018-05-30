@@ -1,10 +1,10 @@
-# Climbing Tick List
+# 🧗 Climbing Tick List
 
-> My personal rock climbing tick list
+> A record of the most classic climbs that I want to climb or have already climbed
 
 https://alexcrist.github.io/climbing-tick-list/
 
-## Development
+## 🛠️ Development
 
 ### Requirements
 
@@ -28,9 +28,11 @@ https://alexcrist.github.io/climbing-tick-list/
 
 - `yarn run publish`
 
-## To Do
+## 🐛 Bugs
 
-- Curent section is bolded in sidebar
-- Spice up the homepage
-- Add filter functionality to homepage
-  - Filter by grade, area, style, etc.
+- Pinned section header overlaps scrollbar
+
+## 🛰 Feature Wishlist
+
+- Bold current section in sidebar
+- Add filter functionality to homepage (grade, area, style, etc.)
