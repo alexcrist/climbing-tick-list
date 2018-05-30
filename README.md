@@ -36,3 +36,5 @@ https://alexcrist.github.io/climbing-tick-list/
   - Curent section is bolded in sidebar
 - Add images for all areas
 - Spice up the homepage
+- Add filter functionality to homepage
+  - Filter by grade, area, style, etc.
