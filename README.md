@@ -30,11 +30,9 @@ https://alexcrist.github.io/climbing-tick-list/
 
 ## To Do
 
-- Add 'See the code' link to homepage
 - Make sidebar functional
   - Click to jump to sections
   - Curent section is bolded in sidebar
-- Add images for all areas
 - Spice up the homepage
 - Add filter functionality to homepage
   - Filter by grade, area, style, etc.

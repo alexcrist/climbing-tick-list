@@ -108,6 +108,12 @@ export default class MainLayout extends React.Component {
         <div className='Main-intro'>
           <h1 className='Main-title'>Climbing Tick List</h1>
           <div className='Main-subtitle'>Alex Crist</div>
+          <div className='Main-code'>
+            <FontAwesome className='Main-code-icon' name='terminal' />
+            <a href='https://github.com/alexcrist/climbing-tick-list'>
+              <div className='Main-code-text'>View on GitHub</div>
+            </a>
+          </div>
           <div className='Main-legend'>
             <h2 className='Main-legend-title'>Legend</h2>
             {legendItems.map(this.buildLegendItem)}

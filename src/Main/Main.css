@@ -16,6 +16,22 @@
   font-size: 18px;
 }
 
+.Main-code {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.Main-code-icon {
+  display: inline-block;
+  margin-right: 10px;
+  transform: translateY(-3px);
+}
+
+.Main-code-text {
+  display: inline-block;
+  font-weight: bold;
+}
+
 .Main-legend {
   font-size: 18px;
   max-width: 155px;
