@@ -40,12 +40,11 @@ export default class MainLayout extends React.Component {
   }
 
   buildLocation({ location, climbs, image }, index) {
-    const locationStyle = {
-      // background: `url(${image})`
-    };
-
     const ref = this.containerRefs[index];
 
+    const climbsAndLocations = climbs.map(climb => ({ ...climb, location }));
+
+    const locationStyle = { backgroundImage: `url(${image})` };
     const locationClasses = classnames('Main-location', {
       'Main-sticky': index === this.state.currentIndex
     });
@@ -57,22 +56,28 @@ export default class MainLayout extends React.Component {
             <h2 className='Main-location-text'>{location}</h2>
           </div>
         </div>
-        <div className='Main-climbs'>{climbs.map(this.buildClimb)}</div>
+        <div className='Main-climbs'>
+          {climbsAndLocations.map(this.buildClimb)}
+        </div>
       </div>
     );
   }
 
-  buildClimb({ style, grade, pitches, name, area, status }, index) {
+  buildClimb({ style, grade, pitches, name, area, status, location }, index) {
     let formattedPitches = '';
     if (pitches) {
       formattedPitches = pitches === 1 ? ' | 1 pitch' : ` | ${pitches} pitches`;
     }
     const climbInfo = `${capitalize(style)} | ${grade}${formattedPitches}`;
+    const search = escape(`${name} ${location}`);
+    const link = `https://www.mountainproject.com/search?q=${search}`;
 
     return (
       <div className='Main-climb' key={index}>
         <FontAwesome className='Main-climb-icon' name={this.getIcon(status)} />
-        <div className='Main-climb-header'>{name}</div>
+        <a href={link}>
+          <div className='Main-climb-header'>{name}</div>
+        </a>
         <div className='Main-climb-info'>{climbInfo}</div>
       </div>
     );
