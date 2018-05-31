@@ -47,6 +47,9 @@
 .Main-legend-item {
   text-align: left;
   margin-bottom: 10px;
+}
+
+.Main-legend-item span {
   padding: 2px;
 }
 
@@ -172,6 +175,10 @@
     margin-top: 10px;
     margin-left: 40px;
     width: 100%;
+  }
+
+  .Main-down {
+    display: none;
   }
 }
 .Sidebar-container {
