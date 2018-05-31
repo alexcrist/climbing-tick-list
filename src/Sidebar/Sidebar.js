@@ -42,9 +42,8 @@ export default class Sidebar extends React.Component {
     return () => {
       const scrollWindow = $('.Main').parent().parent();
       const id = escape(location).replace(/\%/g, '');
-      console.log('id', id);
       const position = scrollWindow.scrollTop();
-      const delta = $(`#${id}`).position().top + 370;
+      const delta = $(`#${id}`).position().top;
       scrollWindow.animate({
         scrollTop: position + delta
       }, 1000);
