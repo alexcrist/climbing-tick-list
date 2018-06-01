@@ -1,6 +1,8 @@
 .Sidebar-container {
   width: 175px;
   padding: 10px;
+  height: calc(100vh - 20px);
+  background-color: #F8F8F8;
 }
 
 .Sidebar-header {
