@@ -561,7 +561,7 @@
     name: The Bong
     area: Blob
     status: flashed
-  - style: sport?
+  - style: sport
     grade: 5.6
     pitches: 1
     name: SW Corner
@@ -850,3 +850,11 @@
 - location: Smith Rock
   image: http://www.fivepinelodge.com/wp-content/uploads/2013/04/Smith-Rock2.jpg
   climbs: []
+  
+- location: Grand Teton
+  image: https://www.nps.gov/grte/learn/nature/images/Snake_River_Overlook_2005_Wiles.JPG?maxwidth=1200&maxheight=1200&autorotate=false
+  climbs:
+  - style: trad
+    grade: 5.7
+    pitches: 6
+    name: Lower Exum Ridge
