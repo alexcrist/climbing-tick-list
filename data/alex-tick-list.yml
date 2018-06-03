@@ -825,11 +825,101 @@
 
 - location: North Cascades
   image: https://www.evergreenescapes.com/wp-content/uploads/2012/09/North-Cascades-e1354925432823.jpg
-  climbs: []
+  climbs:
+  - style: trad
+    grade: 5.6
+    pitches: 4
+    name: Beckey Route
+    status: flashed
+  - style: trad
+    grade: 5.8
+    pitches: 6
+    name: Southwest Rib
+  - style: trad
+    grade: 5.8-
+    pitches: 6
+    name: East Ridge Direct
 
 - location: Vedauwoo
   image: https://collegian.com/wp-content/uploads/2016/09/tent-at-vedauwoo-photo-by-nevin-fowler.jpg
-  climbs: []
+  climbs:
+  - style: trad
+    grade: 5.7+
+    pitches: 1
+    name: Mother 1
+    status: sent
+  - style: trad
+    grade: 5.7
+    pitches: 2
+    name: Edward's Crack
+    status: flashed
+  - style: trad
+    grade: 5.7
+    pitches: 2
+    name: TM Chimney
+    status: flashed
+  - style: trad
+    grade: 5.10a
+    pitches: 1
+    name: Mainstreet
+  - style: trad
+    grade: 5.8
+    pitches: 2
+    name: Strawberry Jam
+  - style: trad
+    grade: 5.9
+    pitches: 2
+    name: MRC Direct
+    status: flashed
+  - style: trad
+    grade: 5.9+
+    pitches: 1
+    name: Intimidation
+  - style: trad
+    grade: 5.9+
+    pitches: 1
+    name: Fantasia
+  - style: trad
+    grade: 5.9+
+    pitches: 1
+    name: Climb and Punishment
+  - style: trad
+    grade: 5.9-
+    pitches: 1
+    name: The Convict
+  - style: trad
+    grade: 5.9
+    pitches: 2
+    name: Middle Parallel Space
+  - style: trad
+    grade: 5.9
+    pitches: 1
+    name: Labyrinth
+  - style: trad
+    grade: 5.9+
+    pitches: 1
+    name: Tool or Die
+  - style: trad
+    grade: 5.9+
+    pitches: 1
+    name: Straight Edge
+  - style: trad
+    grade: 5.9+
+    pitches: 1
+    name: Plumb Line
+  - style: trad
+    grade: 5.8+
+    pitches: 1
+    name: Straight and Narrow
+    
+- location: Devil's Tower
+  image: https://1.bp.blogspot.com/-BRDD_w6s29Q/WtDKhB3V8kI/AAAAAAAAPn4/Khpbhgd8nqMGSMg0PJisdq-ISOnraJK-ACLcBGAs/s1600/Scientists%2BSolve%2Bthe%2BMystery%2Bof%2BHow%2Bthe%2BColumns%2Bof%2BDevils%2BTower%2BFormed%2B%25282%2529.jpg
+  climbs:
+  - style: trad
+    grade: 5.7
+    pitches: 6
+    name: Durrance
+    status: flashed
 
 - location: Ten Sleep Canyon
   image: https://res.cloudinary.com/miles-extranet-dev/image/upload/ar_16:9,c_fill,w_1200,g_face/Wyoming/account_photos/37a340857b9f00b5bd4aab9a935b24dd_canyon.jpg
@@ -845,7 +935,11 @@
 
 - location: Yosemite
   image: http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VCW_D_Yosemite_Hero_20140503_Yosemite_hero_1280x642_1.jpg
-  climbs: []
+  climbs:
+  - style: trad
+    grade: 5.7
+    pitches: 8
+    name: Snake Dyke
 
 - location: Smith Rock
   image: http://www.fivepinelodge.com/wp-content/uploads/2013/04/Smith-Rock2.jpg
