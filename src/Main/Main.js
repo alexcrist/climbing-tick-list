@@ -110,10 +110,10 @@ export default class MainLayout extends React.Component {
 
   render() {
     const legendItems = [
-      { text: 'Noop', icon: 'unattempted' },
+      { text: 'Fresh', icon: 'unattempted' },
       { text: 'Try', icon: 'attempted' },
       { text: 'Send', icon: 'sent' },
-      { text: 'FLARSH', icon: 'flashed' }
+      { text: 'Flash', icon: 'flashed' }
     ];
     return (
       <div className='Main'>
