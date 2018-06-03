@@ -897,7 +897,65 @@
     pitches: 2
     name: Boring Crack
   
-  
-    
+  - location: Red Rocks
+    image: https://thumbs.dreamstime.com/b/red-rock-canyon-near-las-vegas-nevada-desert-mountains-background-desert-plants-foreground-62868965.jpg 
+    climbs:
+    - style: trad
+      grade: 5.9
+      pitches: 13
+      name: Epinephrine
+    - style: trad
+      grade: 5.10a
+      pitches: 6
+      name: Sour Mash
+      status: flashed
+    - style: trad / sport
+      grade: 5.10+
+      pitches: 5
+      name: The Nightcrawler
+    - style: trad
+      grade: 5.10
+      pitches: 6
+      name: Triassic Sands
+    - style: trad
+      grade: 5.10a
+      pitches: 7
+      name: Dream of Wild Turkeys
+    - style: trad
+      grade: 5.9-
+      pitches: 6
+      name: Armatron
+    - style: trad
+      grade: 5.9+
+      pitches: 8
+      name: Black Orpheus
+    - style: sport
+      grade: 5.10b
+      pitches: 7
+      name: Unimpeachable Groping
+    - style: sport
+      grade: 5.11d
+      pitches: 1
+      name: Sonic Youth
+    - style: sport
+      grade: 5.11d
+      pitches: 1
+      name: Sweet Pain
+    - style: sport
+      grade: 5.11d
+      pitches: 1
+      name: Sunny and Steep
+    - style: sport
+      grade: 5.12a
+      pitches: 1
+      name: Gimme Back My Bullets
+    - style: sport
+      grade: 5.12a
+      pitches: 1
+      name: Steep Thrills
+    - style: sport
+      grade: 5.12a
+      pitches: 1
+      name: Fear and Loathing, III
     
     
